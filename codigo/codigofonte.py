@@ -182,7 +182,7 @@ while dec == '1':
        '\033[33m4ª Pergunta\033[m': {
            'pergunta': 'O que fazer com o lixo eletrônico - pilhas, baterias e equipamentos quebrados? ',
            'respostas': {'1': 'Recolher, organizar e armazenar em casa ou no máximo o tempo que der.', '2':
-                              'Juntar com plásticos e metais.', '3': 'Jogar no lixo comum.', '4': 'Procure locais '
+                              'Juntar com plásticos e metais.', '3': 'Jogar no lixo comum.', '4': 'Procure locais, '
                               'específicos para seu descarte.'},
                               'correta': '4',
        },
