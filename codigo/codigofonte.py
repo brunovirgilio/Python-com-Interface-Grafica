@@ -263,7 +263,7 @@ while dec == '1':
 
     print('-' * 67)
     if corretas >= 7 and corretas <= 10:
-       print(f'\033[34mPARABÉNS {nome}, Acertou {corretas}. Você entende tudo de SUSTENTABILIDADE.\033[m ')
+       print(f'\033[34mPARABÉNS {nome}, Acertou {corretas}. Você entend tudo de SUSTENTABILIDADE.\033[m ')
     elif corretas >= 4 and corretas <= 6:
        print(f'\033[32mVOCÊ TEM UM BOM CONHECIMENTO, {nome}, ACERTOU {corretas}, MAS PODE MELHORAR.\033[m')
     elif corretas <= 3:
