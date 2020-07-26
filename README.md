@@ -1,10 +1,10 @@
 Esse é o meu primeiro projeto em Python, fiz na faculdade em conjunto com os profissionais Emerson, Carla e Caio.
 
 Nesse projeto usamos recursos fundamentais de linguagem de programação, são eles:
-* Recursos de Condições
-* Looping de Repetições
-* Operadores
-* Funções
+* Recursos de Condições;
+* Looping de Repetições;
+* Operadores;
+* Funções.
 
 Foi um grande desafio concluir esse trabalho, pois começamos em Março com Zero conhecimento de Python e em Juho entregamos o sistema pronto.
 
