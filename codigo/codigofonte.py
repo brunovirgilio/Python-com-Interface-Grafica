@@ -3,19 +3,19 @@ from tkinter import *
 c = 0
 
 janela = Tk()
-janela.title('QUIZ MENTE VERDE')
+janela.title('QUIZ SUSTENTABILIDADE')
 
 def result():
     global c
     q10 = int(en14.get())
     if q10 == 1:
         c += 1
-        if 7 <= c <= 10:
-            lb69['text'] = "VOCÊ ACERTOU {} QUESTÕES. PARABÉNS VOCÊ ENTENDE TUDO DE SUSTENTABILIDADE.".format(c)
-        elif 4 >= c <= 6:
-            lb69['text'] = 'VOCÊ ACERTOU {} QUESTÕES. VOCÊ TEM UM BOM CONHECIMENTO, MAS PODE MELHORAR.'.format(c)
-        else:
-            lb69['text'] = 'VOCÊ ACERTOU {} QUESTÕES. PRECISA ADIQUIRIR MAIS CONHECIMENTOS, TREINE MAIS.'.format(c)
+    if 7 <= c <= 10:
+        lb69['text'] = 'VOCÊ ACERTOU {} QUESTÕES. PARABÉNS VOCÊ ENTENDE TUDO DE SUSTENTABILIDADE.'.format(c)
+    elif 4 <= c <= 6:
+        lb69['text'] = 'VOCÊ ACERTOU {} QUESTÕES. VOCÊ TEM UM BOM CONHECIMENTO, MAS PODE MELHORAR.'.format(c)
+    else:
+        lb69['text'] = 'VOCÊ ACERTOU {} QUESTÕES. PRECISA ADIQUIRIR MAIS CONHECIMENTOS, TREINE MAIS.'.format(c)
     lb63.destroy()
     lb64.destroy()
     lb65.destroy()
@@ -213,13 +213,7 @@ def quiz2():
 def quiz():
     n1 = str(en1.get()).upper()
     lb5.destroy()
-    lb6.destroy()
-    lb7.destroy()
-    lb8.destroy()
     en1.destroy()
-    en2.destroy()
-    en3.destroy()
-    en4.destroy()
     bt1.destroy()
     lb70['text'] = 'OLÁ {}. VAMOS COMEÇAR!'.format(n1)
     lb9['text'] = "1ªPergunta: O que é reciclagem?"
@@ -234,35 +228,16 @@ lb1 = Label(janela, text='-' * 130, fg='green')
 lb1.pack()
 lb2 = Label(janela, text='SEJA BEM-VINDO AO', fg='green', font='Arial 12')
 lb2.pack()
-lb3 = Label(janela, text='QUIZ MENTE VERDE', fg='green', font='Arial 12')
+lb3 = Label(janela, text='QUIZ SUSTENTABILIDADE', fg='green', font='Arial 12')
 lb3.pack()
 lb4 = Label(janela, text='-' * 130, fg='green')
 lb4.pack()
-
 lb5 = Label(janela, text='Digite seu nome')
 lb5.pack()
 en1 = Entry(janela, fg='green')
 en1.pack()
-
-lb6 = Label(janela, text='Digite sua idade')
-lb6.pack()
-en2 = Entry(janela, fg='green')
-en2.pack()
-
-lb7 = Label(janela, text='Digite o nome de sua escola')
-lb7.pack()
-en3 = Entry(janela,fg='green', width=50)
-en3.pack()
-
-lb8 = Label(janela, text='Digite a sua serie')
-lb8.pack()
-en4 = Entry(janela, fg='green')
-en4.pack()
-
 bt1 = Button(janela, text='Iniciar Quiz',fg='green', command=quiz)
 bt1.pack()
-
-
 
 #1
 lb70 = Label(janela, text=' ')
