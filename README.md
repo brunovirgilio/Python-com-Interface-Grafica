@@ -1,4 +1,4 @@
-Esse é o meu primeiro projeto em Python, fiz na faculdade em conjunto com os profissionais Emerson, Carla e Caio.
+Esse é o meu primeiro projeto em Python, fiz em conjunto com os profissionais Emerson, Carla e Caio.
 
 Nesse projeto usamos recursos fundamentais de linguagem de programação, são eles:
 * Recursos de Condições;
